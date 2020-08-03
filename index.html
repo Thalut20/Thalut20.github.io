@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+	<title>Asyifa Nuraini</title>
+	<meta charset="utf-8">
+	<link rel="icon" href="https://gamepedia.cursecdn.com/minecraft_gamepedia/a/a7/Heart.svg?version=dac1a46352ab4c25ad78a3cef0ceea86">
+	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+	<style type="text/css">
+		*{
+			margin: 0;
+			padding: 0;
+			box-sizing: border-box;
+		}
+
+		body{
+			display: flex;
+			justify-content: center;
+			min-height: 100vh;
+			background: pink;
+		}
+
+		.box{
+			position: relative;
+			width: 200px;
+			height: 200px;
+			transform-style: preserve-3d;
+			animation: animate 20s linear infinite;
+			margin-left: 300%;
+
+		}
+
+		@keyframes animate{
+			0% {
+				transform: perspective(1000px) rotateY(0deg);
+			}
+			100% {
+				transform: perspective(1000px) rotateY(360deg);
+			}
+		}
+
+		.box span{
+			position: absolute;
+			top: 0;
+			left: 0;
+			width: 100%;
+			height: 100%;
+			transform-origin: center;
+			transform-style: preserve-3d;	
+			transform: rotateY(calc(var(--i)* 45deg)) translateZ(400px);
+			-webkit-box-reflect: below 0px linear-gradient(transparent,transparent,#0004);
+
+		}
+
+		.box span img {
+			position: absolute;
+			top: 0;
+			left: 0;
+			width: 100%;
+			height: 100%;
+			border: solid white;
+			object-fit: cover;
+			margin-top: 50px;
+		}
+
+		.quotes {
+			margin: 500px 600px 10px 20px;
+			font-size: 20px;
+			font-family: arial; 
+			
+
+  		}
+  			#love{
+  			position: absolute;
+  			top: 0;
+  			left: 0;
+  			width: 100%;
+  			height: 100%;
+  			overflow: hidden;
+  			z-index: -1;
+  		}
+  		#love .ajg{
+  			position: absolute;
+  			display: block;
+  			list-style: none;
+  			animation: animatee 20s linear infinite; 
+  			bottom: -100px;
+  			transition: all 1s ease;
+  		}
+  		#love .ajg :nth-child(1){
+  			left: 86%;
+  			width: 80px;
+  			height: 80px;
+  			animation-delay: 0s;
+  		}
+  		#love .ajg:nth-child(2){
+  			left: 12%;
+  			width: 30px;
+  			height: 30px;
+  			animation-delay: 1.5s;
+  			animation-duration: 10s;
+  		}
+  		#love .ajg:nth-child(3){
+  			left: 70%;
+  			width: 100px;
+  			height: 100px;
+  			animation-delay: 5.5s;
+  		}
+  		#love .ajg:nth-child(4){
+  			left: 42%;
+  			width: 150px;
+  			height: 150px;
+  			animation-delay: 0s;
+  			animation-duration: 15s; 
+  		}
+  		#love .ajg:nth-child(5){
+  			left: 15%;
+  			width: 110px;
+  			height: 110px;
+  			animation-delay: 3.5s;
+  		}
+  			@keyframes animatee{
+  			0%{
+  				transform: translateY(0) rotate(0deg);
+  				opacity: 1;
+  			}
+  			100%{
+  				transform: translateY(-100vh) rotate(360deg);
+  				opacity: 0;
+  			}
+
+  			  		@keyframes animatee2{
+  			0%{
+  				transform:rotate(0deg);
+  			}
+  			100%{
+  				transform:rotate(360deg);
+  			}
+  		}
+  		@keyframes animatee3{
+  			0%{
+  				transform:rotate(360deg);
+  			}
+  			100%{
+  				transform:rotate(0deg);
+  			}
+	
+	</style>
+
+</head>
+<body>
+<section>
+	<div class="box">
+		<span style="--i:1"><img src="1.jpg"></span>
+		<span style="--i:2"><img src="2.jpg"></span>
+		<span style="--i:3"><img src="3.jpg"></span>
+		<span style="--i:4"><img src="4.jpg"></span>
+		<span style="--i:5"><img src="5.jpg"></span>
+		<span style="--i:6"><img src="6.jpg"></span>
+		<span style="--i:7"><img src="7.jpg"></span>
+		<span style="--i:8"><img src="8.jpg"></span>
+	</div>
+</section>
+	<div class="quotes" style="color: rgb(0, 0, 0); text-shadow: rgb(255, 255, 255) 0px 0px 10px;">
+			<p> Happy birthday Asyifa Nuraini 🎆🎉🎊🎇 <span class="efek-ngetik"></span></p>
+			
+	</div>
+	<div id="love">
+				<span class="ajg"><img src="heart1.png"></span>
+				<span class="ajg"><img src="heart2.png"></span>
+				<span class="ajg"><img src="heart3.png"></span>
+				<span class="ajg"><img src="heart4.png"></span>
+				<span class="ajg"><img src="heart5.png"></span>
+				<span class="ajg"><img src="heart6.png"></span>
+				<span class="ajg"><img src="heart7.png"></span>
+				<span class="ajg"><img src="heart8.png"></span>
+				<span class="ajg"><img src="heart9.png"></span>
+			</div>
+
+		<audio id="myOpening" controls="" autoplay="">
+			<source src="p.mp3" type="audio/mpeg">
+			Your browser does not support the audio element.
+		</audio>
+
+		<script type="text/javascript">const txtElement = ['Semoga mendapatkan kebahagiaan yang luar biasa. Dan semoga dihari berikutnya dapat menjadi bijaksana dibandingkan tahun lalu.' ,
+		'Bila kau tak tahan lelahnya belajar, maka kau harus tahan menanggung perihnya kebodohan',
+		 "Every failure, rejection, betrayal should be the reason for you to come back stronger in life by working on goals and achiving them", 
+		 "Every failure, rejection, betrayal should be the reason for you to come back stronger in life by working on goals and achiving them",
+		 'jangan kebanyakan tidur!!!!' ,
+		 'jangan males terus',
+		  "Every failure, rejection, betrayal should be the reason for you to come back stronger in life by working on goals and achiving them",
+		 'I love You 💕💗❤' ];
+let count = 0;
+let txtIndex = 0;
+let currentTxt= '';
+let words = '';
+
+(function ngetik(){
+
+		if (count == txtElement.length) {
+		count= 0;
+	}
+
+	currentTxt = txtElement[count];
+
+	words = currentTxt.slice(0, ++txtIndex);
+	document.querySelector('.efek-ngetik').textContent = words;
+
+	if (words.length == currentTxt.length) {
+		count++;
+		txtIndex = 0;
+	}
+
+	setTimeout(ngetik, 300);
+
+})();</script>
+</body>
+</html>
